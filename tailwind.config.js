@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        'custom-red': '#e74c3c', // Agrega el color verde personalizado a tu paleta
+      },
+    },
   },
   plugins: [],
 }
